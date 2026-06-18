@@ -2,9 +2,9 @@
 // 1. LIGAÇÃO AO SUPABASE
 // ==========================================
 // ATENÇÃO: Substitua pelas suas credenciais reais do Supabase (Project Settings > API)
-const supabaseUrl = 'https://omgbtlbnevembmgkuwjz.supabase.co'; 
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9tZ2J0bGJuZXZlbWJtZ2t1d2p6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3MzA5NDYsImV4cCI6MjA5NzMwNjk0Nn0.1JVRQSBJAeIu7hf5j7Ez615DTQxnmj4wAoVQi48zBEU; 
-const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+const supabaseUrl = 'https://vnerobezclyvtmverjxs.supabase.co'; 
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9tZ2J0bGJuZXZlbWJtZ2t1d2p6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3MzA5NDYsImV4cCI6MjA5NzMwNjk0Nn0.1JVRQSBJAeIu7hf5j7Ez615DTQxnmj4wAoVQi48zBEU';
+const supabase = supabase.createClient(supabaseUrl, supabaseKey);e
 
 let idEdicaoAtual = null;
 
